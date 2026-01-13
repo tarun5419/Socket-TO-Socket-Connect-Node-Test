@@ -1,0 +1,25 @@
+{
+  "name": "mfm-socket-service",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "dependencies": {
+    "@socket.io/redis-adapter": "^8.3.0",
+    "cluster": "^0.7.7",
+    "cookie-parser": "~1.4.4",
+    "cors": "^2.8.5",
+    "debug": "~2.6.9",
+    "dotenv": "^16.3.1",
+    "express": "~4.16.1",
+    "http-errors": "~1.6.3",
+    "ioredis": "^5.4.1",
+    "morgan": "~1.9.1",
+    "nodemon": "^3.1.3",
+    "os": "^0.1.2",
+    "pug": "2.0.0-beta11",
+    "socket.io": "^4.7.5",
+    "socket.io-redis": "^6.1.1"
+  }
+}

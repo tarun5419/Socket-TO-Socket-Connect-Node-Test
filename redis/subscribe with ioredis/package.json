@@ -1,0 +1,20 @@
+{
+  "name": "subscribe-with-ioredis",
+  "version": "1.0.0",
+  "description": "",
+  "main": "ioreciever.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start" : "nodemon ioreciever.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@socket.io/redis-adapter": "^8.3.0",
+    "express": "^4.21.2",
+    "ioredis": "^5.4.2",
+    "nodemon": "^3.1.9",
+    "socket.io": "^4.8.1"
+  }
+}
